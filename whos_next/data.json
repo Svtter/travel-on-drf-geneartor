@@ -1,0 +1,41 @@
+[
+    {
+       "fields":{
+          "slug":"programming",
+          "name":"Programming",
+          "parent":null
+       },
+       "model":"api.category",
+       "pk":1
+    },
+    {
+       "fields":{
+          "slug":"python",
+          "name":"Python",
+          "parent":1
+       },
+       "model":"api.category",
+       "pk":2
+    },
+    {
+       "fields":{
+          "slug":"django",
+          "name":"Django",
+          "parent":2
+       },
+       "model":"api.category",
+       "pk":3
+    },
+    {
+       "fields":{
+          "updated":"2015-04-13T17:52:38.404Z",
+          "slug":"writing-an-api-in-django",
+          "title":"Writing an API in Django",
+          "category":3,
+          "created":"2015-04-13T17:52:38.404Z",
+          "content":"Django is pretty neat, eh."
+       },
+       "model":"api.entry",
+       "pk":1
+    }
+ ]
